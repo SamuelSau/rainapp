@@ -4,14 +4,14 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url('./assets/rain1.jpg');
     font-family: 'PT Sans', sans-serif;
+    background: url(./assets/rain1.jpg);
 }
 
 .card {
     background: rgb(0, 0, 0);
     color: white;
-    opacity: 93%;
+    opacity: 95%;
     padding: 2em;
     border-radius: 40px;
     width: 100%;
@@ -53,5 +53,19 @@ input.search-bar {
 }
 
 h1.temp {
-    margin: 0
+    margin: 0;
+}
+
+.city span {
+    font-size: 150%;
+    border-bottom: 1.5px solid white;
+    margin-left: 15px;
+}
+
+.weather {
+    line-height: 30px;
+}
+
+.description, .humidity, .wind, .lon, .lat {
+    font-weight: bold;
 }
