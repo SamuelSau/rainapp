@@ -1,8 +1,8 @@
 # rainapp
 
-**Simple weather app that uses OpenWeather's api to display temperature, description, humidity and wind speed.**
+**Simple weather app that uses OpenWeather's api to display temperature, description, humidity, wind speed, longitude, and latitude from user input**
 
-Written in purely HTML, CSS, and JavaScript.
+Written in HTML, CSS, and JavaScript.
 
 **https://openweathermap.org/api**
 
